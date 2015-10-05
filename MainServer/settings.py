@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'dispatcher',
     'Thud',
+    'Thu2d',
     # 'jobscraper',
 )
 
@@ -58,7 +59,7 @@ ROOT_URLCONF = 'MainServer.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates\Thu2d'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
