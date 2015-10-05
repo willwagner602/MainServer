@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^thud/', include('Thud.urls', namespace='Thud')),
     url(r'^thu2d', include('Thu2d.urls', namespace='Thu2d')),
+    url(r'^jobscraper', include('jobscraper', namespace='jobscraper'))
 ]

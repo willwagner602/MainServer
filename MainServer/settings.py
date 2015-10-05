@@ -40,7 +40,7 @@ INSTALLED_APPS = (
     'dispatcher',
     'Thud',
     'Thu2d',
-    # 'jobscraper',
+    'jobscraper',
 )
 
 MIDDLEWARE_CLASSES = (
