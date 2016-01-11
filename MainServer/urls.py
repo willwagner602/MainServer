@@ -15,11 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-import Thud
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^thud/', include('Thud.urls', namespace='Thud')),
     url(r'^thu2d/', include('Thu2d.urls', namespace='Thu2d')),
-    url(r'^jobscraper/', include('jobscraper', namespace='jobscraper'))
+    url(r'^jobs/', include('PyJobsDjango.urls', namespace='PyJobsDjango.py')),
 ]
