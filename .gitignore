@@ -5,6 +5,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# App folders
+PyJobsDjango/
+Thu2d/
+Thud/
+LandingPage/
+
 # C extensions
 *.so
 
@@ -107,6 +113,5 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 
-
-
+# Testing resource
 BoardDefault.txt
