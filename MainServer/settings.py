@@ -42,7 +42,7 @@ INSTALLED_APPS = (
     'Thu2d',
     'PyJobsDjango',
     'MainServer',
-    'LandingPage'
+    'LandingPage',
 )
 
 MIDDLEWARE_CLASSES = (
