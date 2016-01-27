@@ -108,4 +108,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_FILES_DIRS = ('/static/',)
-STATIC_ROOT = BASE_DIR + STATIC_FILES_DIRS
+STATIC_ROOT = os.getcwd() + '/static'
