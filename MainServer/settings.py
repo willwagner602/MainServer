@@ -107,4 +107,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = []
-STATIC_ROOT = '~/MainServer/static'
+STATIC_ROOT = '/home/will/MainServer/static'
