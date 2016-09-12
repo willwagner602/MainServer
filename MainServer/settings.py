@@ -24,7 +24,7 @@ SECRET_KEY = 'c61958xh4893s53a80%_yujapftv)5&d_b$_hngfilj7$i%npu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['http://10.46.211.114/', 'http://willwagner.me']
+ALLOWED_HOSTS = ['willwagner.me']
 
 
 # Application definition
