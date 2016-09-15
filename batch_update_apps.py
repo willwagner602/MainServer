@@ -3,6 +3,8 @@ import os
 
 if __name__ == '__main__':
 
+    call(['git', 'pull'])
+
     current_dir = os.getcwd()
     app_dirs = ['Thud', 'Thu2d', 'PyJobsDjango', 'LandingPage']
 
