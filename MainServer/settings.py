@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 SECRET_KEY = 'c61958xh4893s53a80%_yujapftv)5&d_b$_hngfilj7$i%npu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['willwagner.me', '127.0.0.1']
 
