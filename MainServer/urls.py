@@ -17,9 +17,11 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^$', include('LandingPage.urls', namespace='LandingPage')),
+    url(r'^', include('LandingPage.urls', namespace='LandingPage')),
     url(r'^admin', include(admin.site.urls)),
     url(r'^thud/', include('Thud.urls', namespace='Thud')),
     url(r'^thu2d', include('Thu2d.urls', namespace='Thu2d')),
     url(r'^jobs/', include('PyJobsDjango.urls', namespace='PyJobsDjango.py')),
+    # url(r'^weblog/', include('zinnia.urls')),
+    # url(r'^comments/', include('django_comments.urls')),
 ]

@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 SECRET_KEY = 'c61958xh4893s53a80%_yujapftv)5&d_b$_hngfilj7$i%npu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['www.willwagner.me', 'willwagner.me', '127.0.0.1']
 
@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['www.willwagner.me', 'willwagner.me', '127.0.0.1']
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
+    'django.contrib.sites',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -41,6 +42,10 @@ INSTALLED_APPS = (
     'PyJobsDjango',
     'MainServer',
     'LandingPage',
+    'django_comments',
+    'mptt',
+    'tagging',
+    'zinnia',
 )
 
 MIDDLEWARE_CLASSES = (
